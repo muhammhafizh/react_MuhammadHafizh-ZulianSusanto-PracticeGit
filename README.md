@@ -1,7 +1,7 @@
-# CSS Practice By Alterra Course
+# Bootstrap Course By Alterra Academy
 
-Perkenalan materi CSS
+Perkenalan materi bootstrap
 
-Mempelajari pseudo class dan selector pada css
+Mempelajari penggunaan komponen bootstrap
 
-Membuat tampilan website sederhana menggunakan HTML & CSS
+Membuat tampilan website sederhana menggunakan framework Bootstrap
