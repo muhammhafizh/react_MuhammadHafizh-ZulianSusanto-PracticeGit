@@ -1,7 +1,7 @@
-# HTML Practice By Alterra Course
+# CSS Practice By Alterra Course
 
-Perkenalan materi html
+Perkenalan materi CSS
 
-Mempelajari cara penggunaan syntax HTML
+Mempelajari pseudo class dan selector pada css
 
-Membuat tampilan dasar website menggunakan HTML
+Membuat tampilan website sederhana menggunakan HTML & CSS
