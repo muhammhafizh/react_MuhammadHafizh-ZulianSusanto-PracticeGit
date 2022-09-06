@@ -1,7 +1,7 @@
-# Bootstrap Course By Alterra Academy
+# Javascript Course By Alterra Academy
 
-Perkenalan materi bootstrap
+Perkenalan materi javascript
 
-Mempelajari penggunaan komponen bootstrap
+Mempelajari penggunaan array method, function, condition dan syntax variabel pada javascript
 
-Membuat tampilan website sederhana menggunakan framework Bootstrap
+Melatih logic programming dengan mengerjakan soal coding
