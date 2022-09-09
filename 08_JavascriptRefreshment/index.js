@@ -1,4 +1,4 @@
-var a = 5
+let a = 5
 let b = "kampus merdeka"
 const nama = "budi"
 let terdaftar = true //untuk menampilkan baris 17 value false tersebut akan diubah ke true agar dapat ditampilkan 
