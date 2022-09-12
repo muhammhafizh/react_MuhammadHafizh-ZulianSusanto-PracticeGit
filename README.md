@@ -1,29 +1,7 @@
-# CleanCode Course By Alterra Academy
+# Algorithm Course By Alterra Academy
 
-Perkenalan Clean Code
+- Perkenalan materi algoritma dan contoh studi case untuk penerapannya
 
-Karakteristik Clean Code
-- Mudah Dipahami
-- Mudah dieja dan dicari
-- Singkat namun mendeskripsikan konteks
-- Konsisten
-- Hindari penambahan konteks yang tidak perlu
-- Memberikan dokumentasi komentar
-- Good function
-- Gunakan konversi
-- Formatting
+- Algoritma adalah prosedur komputasi yang didefinisikan dengan baik yang mengambil beberapa nilai sebagai input dan menghasilkan beberapa nilai sebagai output
 
-KISS (Keep It So Simple)
-- Fungsi atau class harus kecil
-- Fungsi dibuat untuk melakukan satu tugas saja
-- jangan gunakan terlalu banyak argumen pada fungsi
-- Harus diperhatikan untuk mencapai kondisi yang seimbang
-- Kecil dan jumlahnya minimal
-
-DRY (Dont Repeat Yourself)
-
-Refactoring
-- Membuat sebuah abstraksi
-- Memecah kode dengan fungsi/class
-- Perbaiki pneamaan dan lokasi kode
-- Deteksi kode yang memiliki duplikasi
+- Mempelajari penggunaan pseudocode dan membuat flowchart
