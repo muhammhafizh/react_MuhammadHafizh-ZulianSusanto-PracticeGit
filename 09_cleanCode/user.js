@@ -1,4 +1,4 @@
-class user {
+class User {
     constructor(id, username, password){
         this.id = id
         this.username = username 
@@ -6,7 +6,7 @@ class user {
     }
 }
 
-class userservices extends user {
+class Userservices extends User {
     constructor() {
         super(...arguments)
         this.users = [...arguments]
@@ -21,7 +21,7 @@ class userservices extends user {
     }
 }
 
-let people = new userservices(1, "hafizh", 123)
+let people = new Userservices(1, "hafizh", 123)
 console.log(people)
 people.getallusers()
 people.getuserbyid(1)

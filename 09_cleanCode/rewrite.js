@@ -1,11 +1,11 @@
-class kendaraan {
+class Kendaraan {
     constructor(){
         this.jumlahRoda = 0
         this.kecepatanPerJam = 0
     }
 }
 
-class mobil extends kendaraan {
+class Mobil extends Kendaraan {
     constructor() {
         super(...arguments)
     }
@@ -20,12 +20,12 @@ class mobil extends kendaraan {
 
 }
 
-let mobilCepat = new mobil()
+let mobilCepat = new Mobil()
 mobilCepat.berjalan()
 mobilCepat.berjalan()
 mobilCepat.berjalan()
 console.log("Kecepatan mobil cepat " +mobilCepat.kecepatanPerJam+ " KM/JAM")
 
-let mobilLambat = new mobil()
+let mobilLambat = new Mobil()
 mobilLambat.berjalan()
 console.log("Kecepatan mobil lambat " +mobilLambat.kecepatanPerJam+ " KM/JAM")
