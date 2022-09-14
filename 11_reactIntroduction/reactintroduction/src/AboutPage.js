@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import Footer from "./Footer";
+import Footer from "./FooterPage";
 import profile from "./img/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg";
 
 function About() {

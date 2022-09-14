@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import profile from "./img/matthew-hamilton-tNCH0sKSZbA-unsplash.jpg";
 
 function Home() {

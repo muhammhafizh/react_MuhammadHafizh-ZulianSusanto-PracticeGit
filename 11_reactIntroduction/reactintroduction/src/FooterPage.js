@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import logoBawah from './img/logo-ALTA-v2.png'
 import facebook from './img/ic_fb@2x.png'

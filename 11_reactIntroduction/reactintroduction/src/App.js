@@ -1,8 +1,8 @@
-import Headers from "./Headers";
+import Headers from "./HeadersPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Home"
-import About from "./About"
-import Contact from "./Contact"
+import Home from "./HomePage"
+import About from "./AboutPage"
+import Contact from "./ContactPage"
 
 function App() {
   return (
