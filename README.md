@@ -1,7 +1,7 @@
-# Algorithm Course By Alterra Academy
+# React Introduction Course By Alterra Academy
 
-- Perkenalan materi algoritma dan contoh studi case untuk penerapannya
+- Perkenalan materi react js dan tools untuk menggunakannya
 
-- Algoritma adalah prosedur komputasi yang didefinisikan dengan baik yang mengambil beberapa nilai sebagai input dan menghasilkan beberapa nilai sebagai output
+- React adalah library javascript untuk membuat user interface pada website
 
-- Mempelajari penggunaan pseudocode dan membuat flowchart
+- Fungsi menggunakan react adalah deklaratif, berbasis komponen, populer dan dapat digunakan di berbagai perangkat 
