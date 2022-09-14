@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import altaImage from './img/logo-ALTA-v2@2x.png'
 
 function Contact() {
