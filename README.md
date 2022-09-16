@@ -1,7 +1,15 @@
-# React Introduction Course By Alterra Academy
+# React Fundamental Course By Alterra Academy
 
-- Perkenalan materi react js dan tools untuk menggunakannya
+- Perkenalan materi JSX
 
-- React adalah library javascript untuk membuat user interface pada website
+- Penggunaan komponen pada react
 
-- Fungsi menggunakan react adalah deklaratif, berbasis komponen, populer dan dapat digunakan di berbagai perangkat 
+- Komposisi komponen dan props
+
+- Pengenalan React Lifecycle
+
+- Conditional rendering pada react
+
+- Struktur direktori para react
+
+- Styling pada react
