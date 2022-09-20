@@ -1,5 +1,33 @@
 .App {
-  text-align: left;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.App h1 {
+  color: #FF9671;  /* fallback for old browsers */
+}
+
+.App form input{
+  width: 350px;
+  border: 3px solid rgb(85, 187, 153);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.App ul {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+}
+
+.App ul li{
+  display: flex;
+}
+
+.App ul li button {
+  margin-left: auto;
+  border: 2px solid gray;
+  border-radius: 10px;
 }
 
 .App-logo {
@@ -7,13 +35,13 @@
   pointer-events: none;
 }
 
-h1 {
-  margin-left: 40px;
+.list-completed {
+  text-decoration: line-through;
+  color:rgba(39, 40, 44, 0.267);
 }
 
-ul li {
+.list {
   list-style: none;
-  text-align: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
