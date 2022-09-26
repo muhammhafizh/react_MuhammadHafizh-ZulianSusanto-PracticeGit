@@ -1,11 +1,25 @@
 .App {
-  text-align: center;
+  width: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin: auto;
+  width: 600px;
+  padding-top: 100px;
 }
+
+.form .input {
+  /* width: 570px; */
+  margin-bottom: 20px;
+}
+
+.form button {
+  padding: 10px;
+  border: none;
+  color: white;
+  width: 90px;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

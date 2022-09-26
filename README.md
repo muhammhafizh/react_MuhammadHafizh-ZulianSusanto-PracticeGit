@@ -1,21 +1,64 @@
-# React Router Course by Alterra Academy
+# React Form Course by Alterra Academy
 
-- Router merupakan modul dalam react yang berfungsi untuk melakukan proses navigasi pada SPA(Single Page Application)
+- Form merupakan salah satu hal krusial dalam pengembangan aplikasi website. Form dapat digunakan untuk menghandle inputan dari user.
 
-- Multi Page Application(MPA) juga disebut dengan tradisional web app adalah jenis aplikasi website dimana perlu memuat ulang seluruh halaman web setiap kali membuat permintaan baru
+-  Apa itu Controlled Component?
 
-- Single Page Application(SPA) adalah salah satu jenis aplikasi website dimana hanya ada 1 halaman yang menangani semua aktivitas yang terjadi dalam aplikasi tersebut
+Kita dapat menggabungkan cara menyimpan dan memperbarui
+state di HTML dan React dengan menggunakan state pada React.
+Kemudian Komponen React yang me-render sebuah form juga
+mengontrol apa yang terjadi dalam form tersebut pada masukan
+pengguna selanjutnya.
 
-- React Router
-    1. BrowserRouter: digunakan sebagai router yangmenggunakan API history dari HTML5 sehingga dapat menggunakan location untuk sinkronkan UI dengan url
-    2. Route: digunakan sebagai pengarah jalan nya lalu lintas suatu aplikasi web
-    3. Switch: digunakan untuk membungkus kumpulan beberapa component Route
-    4. Link: digunakan untuk berpindah antar halaman.
+Sebuah elemen masukan form yang nilainya dikontrol oleh React
+melalui cara seperti ini disebut sebagai "controlled component.
 
-- Parameter URL adalah suatu parameter yang nilainya ditetapkan secara dinamis di URL halaman.
+- Uncontrolled Component
 
-- Hook Routing
-    1. useHistory
-    2. useLocation
-    3. useParams
-    4. useRouteMatch
+Uncontrolled component adalah alternatif lain dari controlled
+component, dimana data form akan ditangani oleh DOM-nya
+sendiri. Untuk menulis uncontrolled component, alih-alih menulis
+event handler untuk setiap pembaruan state, kita bisa
+menggunakan ref untuk mendapatkan nilai form dari DOM.
+
+- Form controlled dan uncontrolled memiliki kelebihannya sendiri. Kita perlu mengevaluasi situasi kita secara spesifik dan memilih pendekatan apa yang cocok untuk kondisi kita.
+
+Jika formulir sangat sederhana dalam hal umpan balik UI,
+uncontrolled dengan refs sepenuhnya baik-baik saja. Kita tidak
+perlu mendengarkan apa yang dikatakan berbagai artikel bahwa
+uncontrolled itu "buruk". Lagipula kita selalu dapat bermigrasi ke
+controlled input.
+
+Pada dasarnya, ada 3 alasan mengapa validasi form diperlukan :
+
+1. Mencari input data yang benar dan sesuai format. Sebuah
+web/aplikasi tidak dapat berjalan dengan benar, jika data yang
+diolah tidak sesuai dengan kebutuhan aplikasi
+
+2. Melindungi akun pengguna. Misalnya, membuat pengguna
+untuk memasukkan data password yang aman
+
+3. Melindungi sistem/aplikasi. Validasi form yang kuat dapat
+meminimalisir perilaku pengguna yang ingin meretas
+sistem/aplikasi
+
+- Client-side validation
+
+Validasi yang dilakukan pada sisi klien (browser). Validasi ini
+dilakukan agar data input sesuai dengan kebutuhan form, sebelum
+data form dikirimkan ke server.
+
+Kelebihan validasi sisi klien ialah user-friendly, karena jika terjadi
+kesalahan pengguna akan langsung diberitahu. Pengguna tidak
+harus menunggu respon dari server untuk mengetahui hasil
+validasi.
+
+- Server-side validation
+
+Validasi yang dilakukan pada sisi server. Sisi server bertugas untuk
+memvalidasi data kembali, sebelum disimpan di database. Jika
+ditemukan kesalahan, maka response akan dikirim kembali ke
+client berupa koreksi atas kesalahan yang dibuat oleh pengguna.
+
+Berbeda dengan validasi sisi klien, validasi ini tidak user-friendly.
+Karena, koreksi kesalahan akan dikirimkan, setelah form di-submit.
