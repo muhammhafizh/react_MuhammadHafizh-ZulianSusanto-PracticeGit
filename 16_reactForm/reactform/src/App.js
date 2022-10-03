@@ -8,7 +8,7 @@ function App() {
     noHandphone: "",
     pendidikan: "",
     kelas: "",
-    harapan: ""
+    harapan: "" 
   }
 
   const baseError = {
