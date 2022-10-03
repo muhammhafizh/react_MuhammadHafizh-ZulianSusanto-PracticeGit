@@ -3,12 +3,11 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
-  const initialState = [
-    { id : 1, title : "Mengerjakan Exercise", completed : true},
-    { id : 2, title : "Mengerjakan Assignment", completed: false}
-  ]
-  
-  const [works, setWorks] = useState(initialState)
+  const [works, setWorks] = useState([
+      { id : 1, title : "Mengerjakan Exercise", completed : true},
+      { id : 2, title : "Mengerjakan Assignment", completed: false}
+    ]
+  )
 
   const [titleWork, setTitleWork] = useState('')
 
