@@ -1,0 +1,81 @@
+.App {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.App h1 {
+  color: #FF9671;  /* fallback for old browsers */
+}
+
+.App form input{
+  width: 350px;
+  border: 3px solid rgb(85, 187, 153);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.App ul {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+}
+
+.App ul li{
+  display: flex;
+}
+
+.App ul li button {
+  margin-left: auto;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.list-completed {
+  text-decoration: line-through;
+  color:rgba(39, 40, 44, 0.267);
+}
+
+.list {
+  list-style: none;
+}
+
+.list button {
+  background-color: #4CAF50; 
+  color: white;
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
