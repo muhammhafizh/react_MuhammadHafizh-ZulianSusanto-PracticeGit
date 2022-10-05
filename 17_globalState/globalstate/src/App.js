@@ -5,9 +5,9 @@ import './App.css';
 import { addTodo, deleteTodo, completedTodo } from './features/TodoState';
 
 function App() {
-  const works = useSelector(state => state)
+  const works = useSelector(state => state.Todo)
   const dispatch = useDispatch()
-  //console.log(works)
+  console.log(works)
 
   const [titleWork, setTitleWork] = useState('')
 
