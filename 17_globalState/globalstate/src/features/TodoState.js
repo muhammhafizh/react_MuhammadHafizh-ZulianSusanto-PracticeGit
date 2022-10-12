@@ -5,6 +5,7 @@ const initialState = [
   { id : 2, title : "Mengerjakan Assignment", completed: false}
 ]
 
+
 export const todoSlice = createSlice({
   name: 'todo',
   initialState,
