@@ -1,0 +1,36 @@
+mutation insert($objects: [keterangan_insert_input!] = {}) {
+  insert_keterangan(objects: $objects) {
+    returning {
+      Nilai
+      Pelajaran
+      Status
+      user {
+        nama
+      }
+    }
+  }
+}
+
+mutation update($_default: Boolean, $Status: Boolean) {
+  update_keterangan(where: {Status: {_lte: $_default}}, _set: {Status: $Status}) {
+    returning {
+      Nilai
+      Pelajaran
+      Status
+      user {
+        nama
+      }
+    }
+  }
+}
+
+query MyQuery($_search: Boolean) {
+  keterangan(where: {Status: {_eq: $_search}}) {
+    Nilai
+    Pelajaran
+    Status
+    user {
+      nama
+    }
+  }
+}
